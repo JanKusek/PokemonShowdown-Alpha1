@@ -1,8 +1,7 @@
 import asyncio
 
-from poke_env.player import RandomPlayer
-
-from poke_env.player import Player
+from poke_env.player import RandomPlayer # type: ignore
+from poke_env.player import Player # type: ignore
 
 
 class MaxDamagePlayer(Player):

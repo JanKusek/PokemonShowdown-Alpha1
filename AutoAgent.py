@@ -1,5 +1,5 @@
 import asyncio
-from poke_env.player import RandomPlayer
+from poke_env.player import RandomPlayer # type: ignore
 
 
 async def main():
